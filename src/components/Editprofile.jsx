@@ -5,7 +5,7 @@ import { BASE_URL } from '../Utils/constant';
 import { useDispatch } from 'react-redux';
 import { addUser } from '../Utils/userSlice';
 
-const EditProfile = ({user}) => {
+const Editprofile = ({user}) => {
       const [firstName, setFirstName] = useState(user.firstName);
   const [LastName, setLastName] = useState(user.LastName);
   const [ImgUrl, setImgUrl] = useState(user.ImgUrl);
@@ -80,4 +80,4 @@ const EditProfile = ({user}) => {
     
 }
 
-export default EditProfile
+export default Editprofile
